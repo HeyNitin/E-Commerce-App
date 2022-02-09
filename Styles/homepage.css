@@ -1,0 +1,90 @@
+@import "header.css";
+
+body {
+  background-color: var(--primary-color-light);
+}
+
+.catagories {
+  display: flex;
+}
+
+.catagories .card {
+  padding: 0;
+}
+
+.catagories .card-onimage {
+  height: 8rem;
+  width: 13rem;
+  margin-top: 2rem;
+}
+
+.catagories .card-onimage img {
+  height: 8rem;
+  width: 13rem;
+}
+
+.catagories .card-onimage .header {
+  color: var(--black);
+  background-color: var(--white);
+  align-self: center;
+  text-align: center;
+  width: 13rem;
+}
+
+.banner .card-onimage {
+  width: 95%;
+  padding: 0rem;
+  margin: 0 auto 1rem auto;
+  height: 23rem;
+}
+
+.banner .card img {
+  width: 100%;
+  height: 23rem;
+}
+
+.banner .card-onimage .header {
+  color: var(--black);
+  background-color: var(--white);
+  align-self: center;
+  text-align: center;
+  width: 100%;
+}
+
+.banner .card-onimage .header,
+.catagories .card-onimage .header {
+  cursor: pointer;
+}
+
+.collection {
+  display: flex;
+  gap: 3rem;
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+
+.collection .card img {
+  width: 15rem;
+  height: 15rem;
+}
+
+.collection .card {
+  background-color: var(--off-white);
+  color: var(--black);
+  height: 15rem;
+}
+
+.collection .card .content {
+  height: 17rem;
+}
+
+.collection .card .content .footer::first-line {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.collection .card .content .footer p:hover {
+  background-color: unset;
+  padding: unset;
+  cursor: unset;
+}
