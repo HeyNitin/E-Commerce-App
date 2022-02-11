@@ -1,29 +1,27 @@
+@import "variables.css";
 @import "header.css";
 
-body {
-  background-color: var(--primary-color-light);
-}
-
-.catagories {
+.homepage-catagories {
   display: flex;
+  margin-top: 6rem;
 }
 
-.catagories .card {
+.homepage-catagories .card {
   padding: 0;
 }
 
-.catagories .card-onimage {
+.homepage-catagories .card-onimage {
   height: 8rem;
   width: 13rem;
   margin-top: 2rem;
 }
 
-.catagories .card-onimage img {
+.homepage-catagories .card-onimage img {
   height: 8rem;
   width: 13rem;
 }
 
-.catagories .card-onimage .header {
+.homepage-catagories .card-onimage .header {
   color: var(--black);
   background-color: var(--white);
   align-self: center;
@@ -31,19 +29,19 @@ body {
   width: 13rem;
 }
 
-.banner .card-onimage {
+.homepage-banner .card-onimage {
   width: 95%;
   padding: 0rem;
   margin: 0 auto 1rem auto;
   height: 23rem;
 }
 
-.banner .card img {
+.homepage-banner .card img {
   width: 100%;
   height: 23rem;
 }
 
-.banner .card-onimage .header {
+.homepage-banner .card-onimage .header {
   color: var(--black);
   background-color: var(--white);
   align-self: center;
@@ -51,39 +49,39 @@ body {
   width: 100%;
 }
 
-.banner .card-onimage .header,
-.catagories .card-onimage .header {
+.homepage-banner .card-onimage .header,
+.homepage-catagories .card-onimage .header {
   cursor: pointer;
 }
 
-.collection {
+.homepage-collection {
   display: flex;
   gap: 3rem;
   width: 90%;
   margin: 0 auto 0 auto;
 }
 
-.collection .card img {
+.homepage-collection .card img {
   width: 15rem;
   height: 15rem;
 }
 
-.collection .card {
+.homepage-collection .card {
   background-color: var(--off-white);
   color: var(--black);
   height: 15rem;
 }
 
-.collection .card .content {
+.homepage-collection .card .content {
   height: 17rem;
 }
 
-.collection .card .content .footer::first-line {
+.homepage-collection .card .content .footer::first-line {
   font-weight: bold;
   font-size: larger;
 }
 
-.collection .card .content .footer p:hover {
+.homepage-collection .card .content .footer p:hover {
   background-color: unset;
   padding: unset;
   cursor: unset;
