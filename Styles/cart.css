@@ -113,5 +113,9 @@
   color: var(--white);
   width: 100%;
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
+}
+
+.checkout-box .heading-sub {
+  margin-top: 0;
 }

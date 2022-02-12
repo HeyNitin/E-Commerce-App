@@ -21,7 +21,7 @@
   height: 1.5rem;
   width: 4rem;
   text-align: center;
-  background-color: wheat;
+  background-color: var(--wheat);
   color: var(--black);
   margin: -0.4rem 0 0 1rem;
 }
@@ -52,4 +52,8 @@
 
 a:any-link {
   all: unset;
+}
+
+.active {
+  border-bottom: 1px solid var(--white);
 }
