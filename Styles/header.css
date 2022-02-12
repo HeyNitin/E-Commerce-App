@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
 @import "/Styles/variables.css";
 
 .nav-header {
@@ -6,7 +7,6 @@
   align-items: center;
   justify-content: center;
   color: var(--white);
-  gap: 2rem;
   padding: 1rem;
   box-sizing: border-box;
   height: 6rem;
@@ -18,9 +18,12 @@
 }
 
 .nav-header .button {
-  height: fit-content;
+  height: 1.5rem;
+  width: 4rem;
+  text-align: center;
   background-color: wheat;
   color: var(--black);
+  margin: -0.4rem 0 0 1rem;
 }
 
 .nav-header .search {
@@ -38,4 +41,15 @@
 
 .nav-header .button:hover {
   background-color: var(--white);
+}
+
+.nav-header .material-icons {
+  font-size: 1.7rem;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+a:any-link {
+  all: unset;
 }

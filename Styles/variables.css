@@ -1,17 +1,10 @@
 @import url(https://lekhni.netlify.app/css/components.css);
-@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
 
 :root {
   --primary-color: #1a202c;
   --primary-color-light: #2c3341;
   --secondary-color: #f5deb3;
   --off-white: #e4e0e0;
-}
-
-.material-icons {
-  color: #ffffff;
-  font-size: 1.5rem;
-  cursor: pointer;
 }
 
 /* Reset */

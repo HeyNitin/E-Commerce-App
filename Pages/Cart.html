@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Styles/cart.css" />
+    <title>Cart</title>
+  </head>
+
+  <body>
+    <nav class="nav-header">
+      <a href="/index.html" class="logo">BuyFromUs</a>
+
+      <input class="search" type="Search" placeholder="Search"></input>
+
+      <div class="badge">
+        <a href="wishlist.html">
+          <i class="material-icons">
+            favorite_border
+          </i></a>
+        <span class="notifications">0</span>
+      </div>
+      <div class="badge"> <a href="cart.html"> <i class="material-icons">shopping_cart</i>
+          <span class="notifications">0</span></a> </div>
+      </div>
+      <button class="button btn-link">
+        <a href="login.html">Login</a>
+      </button>
+    </nav>
+
+
+    <div class="cart-container">
+
+      <div class="heading-sub text-centered">MY CART</div>
+      <div class="cart-products">
+        <div class="card card-horizental">
+          <img src="https://i.ibb.co/7SdMy4r/Men-s-collection.jpg" alt="main-img" />
+
+          <div class="content">
+            <div class="header">
+              <p>Men Premium Shirt</p><br>
+              <p class="heading-sub final-price">₹2000</p>
+              <p class="text-grey mrp">₹3999</p><br>
+              <p class="text-grey">50% off</p><br>
+              <div class="quantity">
+              <p>Quantity</p>
+              <button class="button quantity-d">-</button>
+              <input placeholder="1">
+              <button class="button quantity-i">+</button></div>
+
+            </div>
+
+            <footer class="footer">
+              <button class="button">Remove from Cart</button>
+              <button class="button">Move to Wishlist</button>
+              
+            </footer>
+          </div>
+
+        </div>
+      </div>
+      <div class="card card-text-only checkout-box">
+        <div>
+        <p class="heading-sub">Price Details</p>
+      </div>
+      <div>
+        <p>Price</p> <p>3999</p>
+        </div>
+        <div>
+        <p>Discount</p> <p>1999</p>
+        </div>
+        <div>
+        <p>Delivery Charges</p> <p>0</p>
+        </div>
+        <div>
+        <p class="heading-sub">Total Amount</p> <p class = "heading-sub">2000</p>
+        </div>
+        
+        <p>You will save 1999 on this order</p>
+        <button class="button">Place My Order</button>
+      </div>
+    </div>
+  </body>
+
+</html>
