@@ -6,7 +6,7 @@
 - JavaScript
 
 ## Live Link - 
-Documentation site : [BuyFromUs](https://buyfromus.netlify.app/)
+Live site : [BuyFromUs](https://buyfromus.netlify.app/)
 
 ## ScreenShots - 
 
